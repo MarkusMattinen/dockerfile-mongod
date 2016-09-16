@@ -1,4 +1,4 @@
-# mongodb and supervisord on trusty
+# MongoDB 3.1 and supervisord on Ubuntu Trusty
 FROM markusma/supervisord:trusty
 
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 \
