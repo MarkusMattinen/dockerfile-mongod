@@ -1,5 +1,5 @@
 # MongoDB 3.1 and supervisord on Ubuntu Trusty
-FROM markusma/supervisord:trusty
+FROM markusma/supervisord:ubuntu-trusty
 
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 \
  && echo 'deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.1 multiverse' > /etc/apt/sources.list.d/mongodb-org-3.1.list \
