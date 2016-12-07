@@ -17,4 +17,4 @@ COPY bin/ /usr/local/bin/
 EXPOSE 27017
 VOLUME ["/var/lib/mongodb"]
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
-CMD ["mongod", "--config", "/etc/mongod.conf", "--auth"]
+CMD ["mongod", "--config", "/etc/mongodb/mongod.conf", "--auth"]
