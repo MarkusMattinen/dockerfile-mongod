@@ -1,7 +1,7 @@
 # MongoDB 4.4 on Ubuntu Bionic
 FROM markusma/ubuntu:bionic
 
-RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 \
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 656408E390CFB1F5 \
  && echo 'deb http://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse' > /etc/apt/sources.list.d/mongodb-org.list \
  && apt-get update \
  && apt-get install -y --no-install-recommends --force-yes mongodb-org \

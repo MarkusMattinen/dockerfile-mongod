@@ -1,7 +1,7 @@
 # MongoDB 3.6 on Ubuntu Trusty
 FROM markusma/ubuntu:trusty
 
-RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 \
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 58712A2291FA4AD5 \
  && echo 'deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.6 multiverse' > /etc/apt/sources.list.d/mongodb-org.list \
  && apt-get update \
  && apt-get install -y --no-install-recommends --force-yes mongodb-org \
